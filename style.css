@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 227, 227);
+}
+
+.navbar1{
+    background-color: rgb(255, 255, 255);
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.search-box{
+    background-color: rgb(240, 245, 248);
+    width: 680px;
+    height: 40px;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+}
+.search-box i{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.search-box .search{
+    width: 466.54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    border:2px solid transparent;
+    background-color: rgb(240, 245, 248);
+    border-radius: 8px;
+}
+.login{
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login i{
+    padding-right:5px ;
+    color: rgb(50, 50, 50);
+}
+.login #login{
+    font-size: 1.1rem;
+    border: 2px transparent;
+    color: rgb(50, 50, 50);
+}
+.cart i, .store i, .more i{
+    font-size: 1.2rem;
+    color: rgb(50, 50, 50);
+}
+i + span{
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 50, 50);
+}
+.nav a{
+    text-decoration: none;
+}
+/* ! Body */
+
+.body .box1 img{
+    height: 65px;
+    width: 65px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 131px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:67px ;
+    padding-right:67px ;
+}
+.box-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one a select{
+    border: none;
+    padding: 2px;
+}
+.one a, select{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2 img{
+    width: 100%;
+    height: 100%;
+}
+/* ! Carosel */
+:root {
+    --color-text: #2c3e50;
+    --color-text-light: #34495e;
+    --color-white: #ecf0f1;
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+    --line: 1px solid var(--color-grey-light-2);
+  }
+  
+
+  
+  
+  button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    cursor: pointer;
+    position: absolute;
+    color: var(--color-white);
+    font-size: 3rem;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .carousel_slider {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    position: relative;
+  }
+  
+  .content_inner_slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev_button {
+    left: 0;
+  }
+  
+  .next_button {
+    right: 0;
+  }
+  
+  .dots {
+    display: flex;
+    margin: 0.5rem 0;
+  }
+  
+  .dot {
+    width: 1rem;
+    height: 0.4rem;
+    border: 0.5px solid gray;
+    border-radius: 10%;
+    margin: 0 1px;
+    cursor: pointer;
+    overflow: visible;
+  }
+  
+  .form {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+ 
+  /* ! Box 3 */
+  .box3-base, .box4-base{
+    display: flex;
+  }
+  .box3_a{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  .box3_b{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 356px;
+    width: 20%;
+  }
+  .box3_up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+  .box3_up img{
+    width: 34px;
+    margin: 15px;
+  }
+  .box3_up span{
+    margin: 22px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+  }
+.box3_low{
+  display: flex;
+}
+.box3_low .one{
+  width: 180px;
+  height: 240px;
+  border: 0.6px solid gray;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.one img{
+  height: 80%;
+  width: 85%;
+}
+.box3_b img{
+  width: 100%;
+  height: 100%;
+}
+.box4{
+  display: flex;
+  width: 100hw;
+  height: 245px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box4 img{
+height: 100%;
+}
+.box4_a{
+  display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-content:left;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.box4_a .two{
+  width: 180px;
+  height: 230px;
+  border: 0.6px solid gray;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.two img{
+  width: 180px;
+  height: 190px;
+}
+.two a:hover{
+transform: scale(1.07);
+}
